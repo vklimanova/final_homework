@@ -1,0 +1,42 @@
+/** @format */
+
+/* body {
+    background: #fafafa;
+    margin: 0;
+    min-height: 2000px; */
+
+
+header {
+    background: linear-gradient(214.02deg, rgba(183, 92, 255, 0.5) 6.04%, rgba(103, 26, 228, 0.5) 92.95%);
+    border-bottom: 1.5px solid #dbdbdb;
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 32px;
+    padding: 20px 0px 20px 115px;
+  }
+
+.header_container a {
+    text-decoration: none;
+  }
+
+.profile {
+    display: flex;
+    margin-right: auto;
+}
+
+.menu {
+    margin-right: 170px;
+}
+
+#home,
+#about,
+#services{
+    padding-right: 40px;
+}
